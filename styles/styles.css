@@ -235,13 +235,52 @@
   width: 100%;
 }
 
+
+/* Instagram Section */
+.instagram-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.instagram-section-content > h1 {
+  font-size: 2.5rem;
+}
+
+.instagram-section-content > p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.instagram-section-card-container {
+  display: flex;
+  gap: 24px;
+}
+
+.card > img {
+  width: 100%;
+}
+
 /* Media query for small device */
 @media screen and (max-width: 576px) {
   /* banner */
   .banner-container, 
   .featured-flower-cards, 
   .badge-container, 
-  .offer-section {
+  .offer-section, 
+  .instagram-section-card-container {
     flex-direction: column;
     padding: 10px;
     height: auto;
@@ -274,7 +313,10 @@
 
 /* Media query for medium device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  .banner-container, .featured-flower-cards, .badge-container {
+  .banner-container, 
+  .featured-flower-cards, 
+  .badge-container, 
+  .instagram-section-card-container {
     margin: 10px auto;
     flex-direction: column;
     height: auto;
