@@ -281,7 +281,7 @@
 
 /* latest section */
 .latest-section {
-  background-image: url("/images/Rectangle\ 9.png");
+  background-image: url("/images/rectangle_9.png");
   background-repeat: no-repeat;
   max-width: 1440px;
   margin: 128px auto;
@@ -316,7 +316,7 @@
 }
 
 /* footer section */
-footer {
+.footer-section {
   background-color: #111010;
   max-width: 1922px;
   margin: 0 auto;
@@ -328,13 +328,13 @@ footer {
   gap: 32px;
 }
 
-footer h1 {
+.footer-section h1 {
   font-size: 3rem;
   color: white;
   font-weight: 800;
 }
 
-footer p {
+.footer-section p {
   font-size: 1.2rem;
   color: white;
   font-weight: 500;
