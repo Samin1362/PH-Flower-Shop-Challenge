@@ -275,6 +275,42 @@
   width: 100%;
 }
 
+/* latest section */
+.latest-section {
+  background-image: url("/images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 128px auto;
+  padding: 122px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.latest-section h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.latest-section p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.subscribe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.subscribe-container input {
+  width: 50%;
+  padding: 23px 22px;
+}
+
 /* Media query for small device */
 @media screen and (max-width: 576px) {
   /* banner */
@@ -282,7 +318,8 @@
   .featured-flower-cards, 
   .badge-container, 
   .offer-section, 
-  .instagram-section-card-container {
+  .instagram-section-card-container, 
+  .subscribe-container {
     flex-direction: column;
     padding: 10px;
     height: auto;
